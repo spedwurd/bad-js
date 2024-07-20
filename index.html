@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>basic js mess</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+        <div class="big-word" id="skibidi">test</div>
+        <button type="button" onclick=change()>change</button>
+        <button type="button" onclick=revert()>revert</button>
+
+        <div>
+            <p id="change-style">im normal</p>
+            <button type="button" onclick="bold()">make him blue</button>
+            <button type="button" onclick="window.alert('ahhhhhh')">dont click me</button>
+            <button type="button" onclick="window.print()">print this page</button>
+            <button type="submit" onclick="window.open('/skibidi-toilet.jpg')">my beloved</button>
+            <a href="/skibidi-toilet.jpg" download="virus.sigma.png">download a virus?</a>
+        </div>
+
+        <div>
+            <p>number: <span id="times-clicked">0</span></p>
+            <button type="submit" onclick="increase()">make number bigger</button>
+            <input id="dummy-text" type="text">
+            <p><span id="display-input"></span></p>
+            <button type="submit" onclick="showinput()">reveal input</button>
+        </div>
+    </body>
+</html>
